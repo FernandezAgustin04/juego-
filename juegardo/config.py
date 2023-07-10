@@ -1,0 +1,31 @@
+WIDTH = 1200
+HEIGHT = 700
+SIZE_SCREEN = (WIDTH, HEIGHT)      # el tamaño de la pantalla
+ORIGIN = (0, 0)
+CENTER = (WIDTH // 2, HEIGHT // 2)   # creo podria hacer usar el center x y el center y
+
+DISPLAY_BOTTOM = HEIGHT             # display se refiere al screen
+DISPLAY_TOP = 0
+DISPLAY_LEFT = 0
+DISPLAY_RIGHT = WIDTH
+DISPLAY_CENTER_X = WIDTH // 2
+DISPLAY_CENTER_Y = HEIGHT // 2
+DISPLAY_MIDTOP = (DISPLAY_CENTER_X, DISPLAY_TOP)
+DISPLAY_MIDBOTTOM = (DISPLAY_CENTER_X, HEIGHT)
+
+SCORE_POS = (25, 25)
+
+FPS = 25
+
+
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+GREEN = (0, 255, 0)
+YELLOW = (255, 255, 0)
+CYAN = (0, 255, 255)
+MAGENTA = (255, 0, 255)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+ORANGE = (255, 106, 0)
+PINK = (255, 46, 241)
+COLOR_PANTALLA = (212, 169, 70)
